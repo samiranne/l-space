@@ -1,0 +1,5 @@
+black
+Django==2.2.3
+flake8
+isort
+pytest==5.0.1
