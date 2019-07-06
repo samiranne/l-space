@@ -1,5 +1,7 @@
 black
 Django==2.2.3
+django-extensions==2.1.9
 flake8
 isort
-pytest==5.0.1
+pytest
+pytest-django

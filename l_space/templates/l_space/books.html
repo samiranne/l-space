@@ -1,0 +1,9 @@
+{% if books %}
+    <ul>
+    {% for book in books %}
+        <li>{{ book.title }}</li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>There are no books.</p>
+{% endif %}

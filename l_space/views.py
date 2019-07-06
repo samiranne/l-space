@@ -1,7 +1,12 @@
-from django.http import HttpResponse
-from django.shortcuts import render
+from django.views import generic
+
+from .models import Book
 
 
-# Create your views here.
-def index(request):
-    return HttpResponse("Hello, world. You're at the library index.")
+class BooksView(generic.ListView):
+    model = Book
+    template_name = "l_space/books.html"
+    context_object_name = "books"
+
+    def get_queryset(self):
+        return Book.objects.order_by("title")
