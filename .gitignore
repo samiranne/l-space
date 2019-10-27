@@ -129,6 +129,6 @@ l_space/media/
 .pytest_cache/
 db.sqlite3
 
-
-# PyCharm
+# IDEs
 .idea/
+.vscode/
