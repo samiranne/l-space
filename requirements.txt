@@ -4,5 +4,6 @@ django-extensions==2.1.9
 flake8
 isort
 mypy
+psycopg2
 pytest
 pytest-django
