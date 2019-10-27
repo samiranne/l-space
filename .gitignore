@@ -1,5 +1,5 @@
 # Byte-compiled / optimized / DLL files
-__pycache__/
+*/__pycache__/
 *.py[cod]
 *$py.class
 *.pyc
@@ -128,3 +128,7 @@ dmypy.json
 l_space/media/
 .pytest_cache/
 db.sqlite3
+
+
+# PyCharm
+.idea/
